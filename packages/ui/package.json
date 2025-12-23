@@ -11,18 +11,17 @@
 		"check-types": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@repo/eslint-config": "*",
-		"@repo/typescript-config": "*",
+		"@repo/eslint-config": "workspace:*",
+		"@repo/typescript-config": "workspace:*",
 		"@turbo/gen": "^2.5.0",
 		"@types/node": "^22.14.0",
-		"@types/react": "18.3.1",
-		"@types/react-dom": "18.3.1",
+		"@types/react": "^19.2.7",
+		"@types/react-dom": "^19.2.3",
 		"eslint": "^9.25.0",
 		"typescript": "5.8.2"
 	},
 	"dependencies": {
 		"@pdf-viewer/react": "latest",
-		"pdfjs-dist": "4.7.76",
 		"react": "19.2.0",
 		"react-dom": "19.2.0"
 	}
