@@ -11,8 +11,8 @@
 		"check-types": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@repo/eslint-config": "*",
-		"@repo/typescript-config": "*",
+		"@repo/eslint-config": "workspace:*",
+		"@repo/typescript-config": "workspace:*",
 		"@turbo/gen": "^2.5.0",
 		"@types/node": "^22.14.0",
 		"@types/react": "^19.2.7",
@@ -22,7 +22,6 @@
 	},
 	"dependencies": {
 		"@pdf-viewer/react": "latest",
-		"pdfjs-dist": "4.7.76",
 		"react": "19.2.0",
 		"react-dom": "19.2.0"
 	}

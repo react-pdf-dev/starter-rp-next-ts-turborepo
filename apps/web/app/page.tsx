@@ -1,4 +1,3 @@
-"use client";
 import { LazyAppPdfViewer } from "./_components/LazyAppPdfViewer";
 
 export default function Home() {
